@@ -25,7 +25,7 @@ export class HomeComponent {
   constructor(public appState: AppState, public title: Title) {
 
   }
-
+//angular js 2
   ngOnInit() {
     console.log('hello `Home` component');
     // this.title.getData().subscribe(data => this.data = data);
